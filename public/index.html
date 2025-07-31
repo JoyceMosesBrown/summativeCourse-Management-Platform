@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Reflection - Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="page-title">Your Voice Matters</h1>
+            <div class="language-switcher">
+                <button id="lang-en" class="lang-btn active" data-lang="en">English</button>
+                <button id="lang-fr" class="lang-btn" data-lang="fr">Français</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="welcome-section">
+                <h2 id="welcome-title">Reflect on Your Experience</h2>
+                <p id="welcome-message">This is your space to think back, express honestly, and share how the course shaped your journey.</p>
+            </section>
+
+            <section class="reflection-form">
+                <form id="reflection-form">
+                    <div class="question-group">
+                        <label for="question1" id="question1-label">What new skill or mindset did you develop?</label>
+                        <textarea id="question1" name="question1" rows="4" placeholder="Write your thoughts here..."></textarea>
+                    </div>
+
+                    <div class="question-group">
+                        <label for="question2" id="question2-label">Describe one moment you had to adapt or think differently.</label>
+                        <textarea id="question2" name="question2" rows="4" placeholder="Share your challenge and response..."></textarea>
+                    </div>
+
+                    <div class="question-group">
+                        <label for="question3" id="question3-label">How would you make this course more helpful for others?</label>
+                        <textarea id="question3" name="question3" rows="4" placeholder="Offer any suggestions..."></textarea>
+                    </div>
+                    <button type="submit" id="submit-btn">Send Feedback</button>
+                </form>
+            </section>
+
+            <section class="additional-info">
+                <h3 id="info-title">Why Your Reflection Matters</h3>
+                <p id="info-text">Every word you share helps us build better learning experiences. Your input is anonymous and contributes to future improvements.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p id="footer-text">&copy; 2024 Student Feedback Hub. All rights reserved.</p>
+            <p id="language-info">Language: <span id="current-language">English</span></p>
+        </footer>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
